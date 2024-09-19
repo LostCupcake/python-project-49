@@ -13,5 +13,5 @@ def core(question, correct_answer, name):
   '{answer}' is wrong answer ;(. Correct answer was '{correct_answer()}'.
   Let's try again, {name}!
   ''')
-            return core(question, correct_answer, name)
+            return
     print(f'Congratulations, {name}!')
